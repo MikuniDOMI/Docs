@@ -1,0 +1,95 @@
+.container {
+  font-family: var(--ifm-font-family-base, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+  max-width: var(--ifm-container-width-max, 800px);
+  margin: 0 auto;
+  padding: var(--ifm-container-padding, 20px);
+  color: var(--ifm-color-text, #333);
+  line-height: var(--ifm-line-height, 1.6);
+}
+
+.sourceSelector {
+  margin-bottom: var(--ifm-spacing-large, 20px);
+  display: flex;
+  align-items: center;
+}
+
+.select {
+  padding: var(--ifm-spacing-medium, 8px) var(--ifm-spacing-large, 12px);
+  border-radius: var(--ifm-border-radius, 4px);
+  border: 1px solid var(--ifm-color-border, #ddd);
+  background-color: var(--ifm-color-background, white);
+  font-size: var(--ifm-font-size-base, 14px);
+  margin-left: var(--ifm-spacing-medium, 10px);
+  flex-grow: 1;
+  max-width: var(--ifm-width-large, 400px);
+}
+
+.releaseInfo {
+  background-color: var(--ifm-color-background-subtle, #f8f9fa);
+  padding: var(--ifm-spacing-large, 15px);
+  border-radius: var(--ifm-border-radius, 5px);
+  margin-bottom: var(--ifm-spacing-large, 20px);
+  border-left: 4px solid var(--ifm-color-primary, #389cdf);
+}
+
+.downloadList {
+  list-style: none;
+  padding: 0;
+}
+
+.downloadItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--ifm-spacing-medium, 12px) var(--ifm-spacing-large, 15px);
+  margin-bottom: var(--ifm-spacing-medium, 10px);
+  background-color: var(--ifm-color-background-subtle, #f8f9fa);
+  border-radius: var(--ifm-border-radius, 5px);
+  transition: all 0.2s ease;
+}
+
+.downloadItem:hover {
+  background-color: var(--ifm-color-background-subtle-hover, #e9ecef);
+  transform: translateX(var(--ifm-spacing-small, 5px));
+}
+
+.downloadName {
+  font-weight: var(--ifm-font-weight-medium, 500);
+}
+
+.downloadBtn {
+  background-color: var(--ifm-color-primary, #3498db);
+  color: var(--ifm-color-primary-inverse, white);
+  border: none;
+  padding: var(--ifm-spacing-small, 8px) var(--ifm-spacing-medium, 15px);
+  border-radius: var(--ifm-border-radius, 4px);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: var(--ifm-font-size-base, 14px);
+  transition: background-color 0.2s;
+}
+
+.downloadBtn:hover {
+  background-color: var(--ifm-color-primary-dark, #2980b9);
+}
+
+.loading {
+  text-align: center;
+  padding: var(--ifm-spacing-large, 20px);
+  font-style: italic;
+  color: var(--ifm-color-text-subtle, #7f8c8d);
+}
+
+.error {
+  color: var(--ifm-color-danger, #e74c3c);
+  background-color: var(--ifm-color-danger-subtle, #fadbd8);
+  padding: var(--ifm-spacing-large, 15px);
+  border-radius: var(--ifm-border-radius, 5px);
+  margin-bottom: var(--ifm-spacing-large, 20px);
+}
+
+.downloadCount {
+  font-size: var(--ifm-font-size-small, 12px);
+  color: var(--ifm-color-text-subtle, #7f8c8d);
+  margin-left: var(--ifm-spacing-small, 10px);
+}

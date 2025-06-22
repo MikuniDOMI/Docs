@@ -1,0 +1,8 @@
+{
+  "label": "插件接口",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "description": "RST 插件提供的接口"
+  }
+}

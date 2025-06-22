@@ -1,0 +1,29 @@
+/* 亮色模式下的默认样式 */
+:root {
+  --ifm-color-text: #333;
+  --ifm-color-background: white;
+  --ifm-color-background-subtle: #f8f9fa;
+  --ifm-color-background-subtle-hover: #e9ecef;
+  --ifm-color-border: #ddd;
+  --ifm-color-primary: #3498db;
+  --ifm-color-primary-inverse: white;
+  --ifm-color-primary-dark: #2980b9;
+  --ifm-color-danger: #e74c3c;
+  --ifm-color-danger-subtle: #fadbd8;
+  --ifm-color-text-subtle: #7f8c8d;
+}
+
+/* 暗色模式下的样式 */
+:root[data-theme="dark"] {
+  --ifm-color-text: #e0e0e0;
+  --ifm-color-background: #121212;
+  --ifm-color-background-subtle: #1a1a1a;
+  --ifm-color-background-subtle-hover: #262626;
+  --ifm-color-border: #333;
+  --ifm-color-primary: #3498db;
+  --ifm-color-primary-inverse: #121212;
+  --ifm-color-primary-dark: #2980b9;
+  --ifm-color-danger: #ff5555;
+  --ifm-color-danger-subtle: #331212;
+  --ifm-color-text-subtle: #999;
+}

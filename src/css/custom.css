@@ -1,0 +1,10 @@
+[data-theme='dark'] {
+  --ifm-color-primary: #52c5ff;
+  --ifm-color-primary-dark: #30baff;
+  --ifm-color-primary-darker: #1fb4ff;
+  --ifm-color-primary-darkest: #009dec;
+  --ifm-color-primary-light: #74d0ff;
+  --ifm-color-primary-lighter: #85d6ff;
+  --ifm-color-primary-lightest: #b7e7ff;
+  --ifm-background-color: #171717;
+}
