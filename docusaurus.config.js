@@ -112,7 +112,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Round Studio 文档中心, Inc. Built with Docusaurus.`,
+        copyright: `docs.roundstudio.top ${new Date().getFullYear()} Round Studio, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
