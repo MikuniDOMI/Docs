@@ -112,7 +112,7 @@ const config = {
             ],
           },
         ],
-        copyright: `docs.roundstudio.top ${new Date().getFullYear()} Round Studio, Inc. Built with Docusaurus.`,
+        copyright: `${new Date().getFullYear()} | Round Studio Document Center. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
