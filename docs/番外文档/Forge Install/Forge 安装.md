@@ -191,10 +191,10 @@ https://bmclapi2.bangbang93.com/forge/download?mcversion=1.21.7&version=57.0.2&c
 
 | 模板名          | 替换值                                                      |
 | --------------- | ----------------------------------------------------------- |
-| {INSTALLER}     | installer jar 的所在目录                                    |
-| {ROOT}          | `.minecraft` 文件的所在地                                   |
-| {MINECRAFT_JAR} | `.minecraft/versions/<版本名字>/<版本名字>.jar`文件的所在地 |
-| {SIDE}          | 如果是服务端，`server`，如果是客户端，`client`              |
+| {\{INSTALLER}\}     | installer jar 的所在目录                                    |
+| {\{ROOT}\}          | `.minecraft` 文件的所在地                                   |
+| {\{MINECRAFT_JAR}\} | `.minecraft/versions/<版本名字>/<版本名字>.jar`文件的所在地 |
+| {\{SIDE}\}          | 如果是服务端，`server`，如果是客户端，`client`              |
 
 好的，说完了【字符串模板】，下一个我们应该看看，如果我们往下找的话，其实还有一个键值，那就是 ```output```！
 
