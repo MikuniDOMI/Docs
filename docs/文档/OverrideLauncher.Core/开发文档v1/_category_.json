@@ -1,0 +1,8 @@
+{
+  "label": "开发文档 v1",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "description": "第一代启动核心文档 (适用于 25.7.10.224 以前的版本)"
+  }
+}
