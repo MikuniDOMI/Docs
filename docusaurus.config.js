@@ -84,10 +84,6 @@ const config = {
             title: '文档',
             items: [
               {
-                label: '文档',
-                to: '/docs/介绍/团队介绍',
-              },
-              {
                 label: '关于我们',
                 to: '/docs/关于我们',
               }
