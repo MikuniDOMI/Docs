@@ -1,0 +1,60 @@
+.loading, .error {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.loading {
+  color: #666;
+  background-color: var(--ifm-color-background-subtle-hover);
+}
+
+.error {
+  color: #d32f2f;
+  background-color: var(--ifm-color-background-subtle-hover);
+}
+
+.memberGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.memberCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: var(--ifm-color-background-subtle-hover);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.memberCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.memberName {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.memberName a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.memberName a:hover {
+  text-decoration: underline;
+}
